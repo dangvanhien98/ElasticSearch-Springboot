@@ -6,7 +6,7 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EnableElasticsearchRepositories(basePackages  = "com.example.EsRepository")
+@EnableElasticsearchRepositories(basePackages = "com.example.EsRepository")
 @EnableJpaRepositories(basePackages = "com.example.Repository")
 public class ElasticSearchApplication {
 
